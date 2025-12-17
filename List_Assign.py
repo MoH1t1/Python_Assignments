@@ -1,3 +1,4 @@
+# 1st Question
 l = [1,9,8,7,6,4,8]
 new = []
 for i in l:
@@ -12,6 +13,17 @@ for i in l1:
     if i %2 ==0:
         e.append(i)
 print(e)
+
+# 3rd Question
+l2 = [5, 6, 7, 8, 9]
+la = se = float('-inf')
+for i in l2:
+    if i > la:
+        se = la
+        la = i
+    elif i > se and i != la:
+        se = i
+print(se)
 
 # 4th Question
 n = [[5,6,7], [11,23,45]]
@@ -28,16 +40,8 @@ print("Original:", o)
 print("Shallow Copy:", s)
 print("Deep Copy:", d)
 
-# 3rd Question
-l2 = [5, 6, 7, 8, 9]
-la = se = float('-inf')
-for i in l2:
-    if i > la:
-        se = la
-        la = i
-    elif i > se and i != la:
-        se = i
-print(se)
+
+
 
 
 
