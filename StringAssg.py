@@ -1,3 +1,4 @@
+# 1st Question
 s = input("Enter: ")
 v = c = d = sp = 0
 for i in s:
@@ -47,4 +48,5 @@ try:
     f[0] = 'z'
 except TypeError as e:
     print("Error:", e)
+
 
